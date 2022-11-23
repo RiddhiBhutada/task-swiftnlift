@@ -1,0 +1,61 @@
+:root{
+    --primary: #0D2137;
+    --secondary: #FF8E2B;
+    --white: #ffffff;
+}
+
+body{
+    background-image: url("Desktop\ -\ 1\ \(1\).svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--white) !important;
+}
+
+form{
+    width: 100%;
+}
+
+.row{
+    height: 100vh;
+}
+
+.form-control{
+    background-color: transparent !important;
+    border: 1px solid var(--white) !important;
+    color: var(--white) !important;
+}
+
+.form-label{
+    color: var(--white) !important;
+}
+
+.btn{
+    padding: 20px 30px;
+    background-color: transparent !important;
+    border: 1px solid var(--white) !important;
+    border-radius: 50px !important;
+    color: var(--white) !important;
+}
+
+.btn:hover{
+    background-color: var(--white) !important ;
+    color: black !important;
+}
+
+
+.subtitle{
+    font-size: 20px;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: var(--secondary) !important;
+}
